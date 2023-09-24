@@ -1,6 +1,6 @@
 # GDSC Website Repository
 
-Welcome to the official repository of the Google Developer Student Clubs (GDSC) website for [Your University Name]. 
+Welcome to the official repository of the Google Developer Student Clubs (GDSC) website for National Forensic Sciences University.
 
 ## About GDSC
 
@@ -16,7 +16,7 @@ GDSC is a community of students passionate about technology, where we learn and 
 
 ## Contributing
 
-We welcome contributions from the community! Whether it's fixing a bug, adding a new feature, or improving documentation, your help is appreciated. Please refer to our [Contributing Guidelines](CONTRIBUTING.md) for details on how to get started.
+We welcome contributions from the community! Whether it's fixing a bug, adding a new feature, or improving documentation, your help is appreciated. 
 
 ## Setup and Installation
 
