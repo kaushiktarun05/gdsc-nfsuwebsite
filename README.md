@@ -1,7 +1,5 @@
 # GDSC Website Repository
 
-![GDSC Logo](/path/to/gdsc-logo.png)
-
 Welcome to the official repository of the Google Developer Student Clubs (GDSC) website for [Your University Name]. 
 
 ## About GDSC
