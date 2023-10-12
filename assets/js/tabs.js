@@ -1,7 +1,3 @@
-/*! jQuery UI - v1.11.2 - 2014-10-16
-* http://jqueryui.com
-* Includes: core.js, widget.js, mouse.js, position.js, accordion.js, autocomplete.js, button.js, datepicker.js, dialog.js, draggable.js, droppable.js, effect.js, effect-blind.js, effect-bounce.js, effect-clip.js, effect-drop.js, effect-explode.js, effect-fade.js, effect-fold.js, effect-highlight.js, effect-puff.js, effect-pulsate.js, effect-scale.js, effect-shake.js, effect-size.js, effect-slide.js, effect-transfer.js, menu.js, progressbar.js, resizable.js, selectable.js, selectmenu.js, slider.js, sortable.js, spinner.js, tabs.js, tooltip.js
-* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
 
 (function( factory ) {
 	if ( typeof define === "function" && define.amd ) {
@@ -14,19 +10,9 @@
 		factory( jQuery );
 	}
 }(function( $ ) {
-/*!
- * jQuery UI Core 1.11.2
- * http://jqueryui.com
- *
- * Copyright 2014 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://api.jqueryui.com/category/ui-core/
- */
 
 
-// $.ui might exist from components with no dependencies, e.g., $.ui.position
+
 $.ui = $.ui || {};
 
 $.extend( $.ui, {
@@ -307,17 +293,6 @@ $.ui.plugin = {
 	}
 };
 
-
-/*!
- * jQuery UI Widget 1.11.2
- * http://jqueryui.com
- *
- * Copyright 2014 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://api.jqueryui.com/jQuery.widget/
- */
 
 
 var widget_uuid = 0,
@@ -855,16 +830,6 @@ $.each( { show: "fadeIn", hide: "fadeOut" }, function( method, defaultEffect ) {
 var widget = $.widget;
 
 
-/*!
- * jQuery UI Mouse 1.11.2
- * http://jqueryui.com
- *
- * Copyright 2014 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://api.jqueryui.com/mouse/
- */
 
 
 var mouseHandled = false;
@@ -1548,17 +1513,6 @@ $.ui.position = {
 var position = $.ui.position;
 
 
-/*!
- * jQuery UI Accordion 1.11.2
- * http://jqueryui.com
- *
- * Copyright 2014 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://api.jqueryui.com/accordion/
- */
-
 
 var accordion = $.widget( "ui.accordion", {
 	version: "1.11.2",
@@ -2118,16 +2072,6 @@ var accordion = $.widget( "ui.accordion", {
 });
 
 
-/*!
- * jQuery UI Menu 1.11.2
- * http://jqueryui.com
- *
- * Copyright 2014 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://api.jqueryui.com/menu/
- */
 
 
 var menu = $.widget( "ui.menu", {
@@ -3361,16 +3305,6 @@ $.widget( "ui.autocomplete", $.ui.autocomplete, {
 var autocomplete = $.ui.autocomplete;
 
 
-/*!
- * jQuery UI Button 1.11.2
- * http://jqueryui.com
- *
- * Copyright 2014 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://api.jqueryui.com/button/
- */
 
 
 var lastActive,
@@ -3758,16 +3692,6 @@ $.widget( "ui.buttonset", {
 var button = $.ui.button;
 
 
-/*!
- * jQuery UI Datepicker 1.11.2
- * http://jqueryui.com
- *
- * Copyright 2014 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://api.jqueryui.com/datepicker/
- */
 
 
 $.extend($.ui, { datepicker: { version: "1.11.2" } });
@@ -8958,16 +8882,6 @@ var dialog = $.widget( "ui.dialog", {
 });
 
 
-/*!
- * jQuery UI Droppable 1.11.2
- * http://jqueryui.com
- *
- * Copyright 2014 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://api.jqueryui.com/droppable/
- */
 
 
 $.widget( "ui.droppable", {
@@ -9354,17 +9268,6 @@ $.ui.ddmanager = {
 
 var droppable = $.ui.droppable;
 
-
-/*!
- * jQuery UI Effects 1.11.2
- * http://jqueryui.com
- *
- * Copyright 2014 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://api.jqueryui.com/category/effects-core/
- */
 
 
 var dataSpace = "ui-effects-",
@@ -10646,16 +10549,6 @@ $.each( baseEasings, function( name, easeIn ) {
 var effect = $.effects;
 
 
-/*!
- * jQuery UI Effects Blind 1.11.2
- * http://jqueryui.com
- *
- * Copyright 2014 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://api.jqueryui.com/blind-effect/
- */
 
 
 var effectBlind = $.effects.effect.blind = function( o, done ) {
