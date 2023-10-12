@@ -1,6 +1,5 @@
 ( function( global, factory ) {
-  // universal module definition
-  /* jshint strict: false */ /* globals define, module, window */
+  
   if ( typeof define == 'function' && define.amd ) {
     // AMD - RequireJS
     define( 'ev-emitter/ev-emitter',factory );
@@ -312,7 +311,7 @@ ImagesLoaded.prototype.check = function() {
   }
 
   function onProgress( image, elem, message ) {
-    // HACK - Chrome triggers event before object properties have changed. #83
+    
     setTimeout( function() {
       _this.progress( image, elem, message );
     });
