@@ -8,34 +8,34 @@ GDSC is a community of students passionate about technology, where we learn and 
 
 ## Features
 
-- **Events:** Stay updated on our upcoming events, workshops, and meetups.
-- **Projects:** Explore the exciting projects created by our community members.
-- **Blog:** Read insightful articles and tutorials written by our members.
-- **Get Involved:** Find out how you can join GDSC and contribute to our mission.
-- **Contact:** Reach out to us for inquiries or collaborations.
+-   **Events:** Stay updated on our upcoming events, workshops, and meetups.
+-   **Projects:** Explore the exciting projects created by our community members.
+-   **Blog:** Read insightful articles and tutorials written by our members.
+-   **Get Involved:** Find out how you can join GDSC and contribute to our mission.
+-   **Contact:** Reach out to us for inquiries or collaborations.
 
 ## Contributing
 
-We welcome contributions from the community! Whether it's fixing a bug, adding a new feature, or improving documentation, your help is appreciated. 
+We welcome contributions from the community! Whether it's fixing a bug, adding a new feature, or improving documentation, your help is appreciated.
 
 ## Setup and Installation
 
 To run this website locally, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/Kaushiktarun05/gdsc-website.git`
+1. Clone this repository: ` git clone https://github.com/Kaushiktarun05/gdsc-website.git `
 2. Navigate to the project folder: `cd gdsc-website`
 3. Open `index.html` in your web browser.
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
-- JQuery
+-   HTML5
+-   CSS3
+-   JavaScript
+-   JQuery
 
 ## Contact Us
 
-If you have any questions, suggestions, or feedback, please feel free to reach out to us at kaushiktarun2003@gmail.com(mailto:kaushiktarun2003@gmail.com).
+If you have any questions, suggestions, or feedback, please feel free to reach out to us at [kaushiktarun2003@gmail.com](mailto:kaushiktarun2003@gmail.com).
 
 ## License
 
